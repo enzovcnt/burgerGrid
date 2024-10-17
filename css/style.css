@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.page{
+    display: flex;
+    height: 150vh;
+    flex-direction: column;
+}
+.navbar{
+    background-color: red;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.burgernav{
+}
+.menuclassic{
+}
+.burger{
+    display: grid;
+    height: 95%;
+    width: 100%;
+    grid-template-columns: 16% 16% 16% 16%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content: center;
+    grid-gap: 20px;
+
+}
+
+.ticket{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px red;
+    justify-content: center;
+}
+
+.titreB{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.here{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.blah{
+    display: flex;
+    justify-content: center;
+}
+.available{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border-radius: 15px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
